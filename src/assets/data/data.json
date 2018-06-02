@@ -1,0 +1,1248 @@
+[
+      {
+            "money": "BDT",
+            "flag": "bd",
+            "name": "Bangladesh"
+      },
+      {
+            "money": "EUR",
+            "flag": "be",
+            "name": "Belgium"
+      },
+      {
+            "money": "XOF",
+            "flag": "bf",
+            "name": "Burkina Faso"
+      },
+      {
+            "money": "BGN",
+            "flag": "bg",
+            "name": "Bulgaria"
+      },
+      {
+            "money": "BAM",
+            "flag": "ba",
+            "name": "Bosnia and Herzegovina"
+      },
+      {
+            "money": "BBD",
+            "flag": "bb",
+            "name": "Barbados"
+      },
+      {
+            "money": "XPF",
+            "flag": ".wf",
+            "name": "Wallis and Futuna"
+      },
+      {
+            "money": "EUR",
+            "flag": "bl",
+            "name": "Saint Barthelemy"
+      },
+      {
+            "money": "BMD",
+            "flag": "bm",
+            "name": "Bermuda"
+      },
+      {
+            "money": "BND",
+            "flag": "bn",
+            "name": "Brunei"
+      },
+      {
+            "money": "BOB",
+            "flag": "bo",
+            "name": "Bolivia"
+      },
+      {
+            "money": "BHD",
+            "flag": "bh",
+            "name": "Bahrain"
+      },
+      {
+            "money": "BIF",
+            "flag": "bi",
+            "name": "Burundi"
+      },
+      {
+            "money": "XOF",
+            "flag": "bj",
+            "name": "Benin"
+      },
+      {
+            "money": "BTN",
+            "flag": "bt",
+            "name": "Bhutan"
+      },
+      {
+            "money": "JMD",
+            "flag": "jm",
+            "name": "Jamaica"
+      },
+      {
+            "money": "NOK",
+            "flag": "bv",
+            "name": "Bouvet Island"
+      },
+      {
+            "money": "BWP",
+            "flag": "bw",
+            "name": "Botswana"
+      },
+      {
+            "money": "WST",
+            "flag": "ws",
+            "name": "Samoa"
+      },
+      {
+            "money": "USD",
+            "flag": "bq",
+            "name": "Bonaire, Saint Eustatius and Saba "
+      },
+      {
+            "money": "BRL",
+            "flag": "br",
+            "name": "Brazil"
+      },
+      {
+            "money": "BSD",
+            "flag": "bs",
+            "name": "Bahamas"
+      },
+      {
+            "money": "GBP",
+            "flag": "je",
+            "name": "Jersey"
+      },
+      {
+            "money": "BYR",
+            "flag": "by",
+            "name": "Belarus"
+      },
+      {
+            "money": "BZD",
+            "flag": "bz",
+            "name": "Belize"
+      },
+      {
+            "money": "RUB",
+            "flag": "ru",
+            "name": "Russia"
+      },
+      {
+            "money": "RWF",
+            "flag": "rw",
+            "name": "Rwanda"
+      },
+      {
+            "money": "RSD",
+            "flag": "rs",
+            "name": "Serbia"
+      },
+      {
+            "money": "USD",
+            "flag": "tl",
+            "name": "East Timor"
+      },
+      {
+            "money": "EUR",
+            "flag": "re",
+            "name": "Reunion"
+      },
+      {
+            "money": "TMT",
+            "flag": "tm",
+            "name": "Turkmenistan"
+      },
+      {
+            "money": "TJS",
+            "flag": "tj",
+            "name": "Tajikistan"
+      },
+      {
+            "money": "RON",
+            "flag": "ro",
+            "name": "Romania"
+      },
+      {
+            "money": "NZD",
+            "flag": "tk",
+            "name": "Tokelau"
+      },
+      {
+            "money": "XOF",
+            "flag": "gw",
+            "name": "Guinea-Bissau"
+      },
+      {
+            "money": "USD",
+            "flag": "gu",
+            "name": "Guam"
+      },
+      {
+            "money": "GTQ",
+            "flag": "gt",
+            "name": "Guatemala"
+      },
+      {
+            "money": "GBP",
+            "flag": "gs",
+            "name": "South Georgia and the South Sandwich Islands "
+      },
+      {
+            "money": "EUR",
+            "flag": "gr",
+            "name": "Greece"
+      },
+      {
+            "money": "XAF",
+            "flag": "gq",
+            "name": "Equatorial Guinea"
+      },
+      {
+            "money": "EUR",
+            "flag": "gp",
+            "name": "Guadeloupe"
+      },
+      {
+            "money": "JPY",
+            "flag": "jp",
+            "name": "Japan"
+      },
+      {
+            "money": "GYD",
+            "flag": "gy",
+            "name": "Guyana"
+      },
+      {
+            "money": "GBP",
+            "flag": "gg",
+            "name": "Guernsey"
+      },
+      {
+            "money": "EUR",
+            "flag": "gf",
+            "name": "French Guiana"
+      },
+      {
+            "money": "GEL",
+            "flag": "ge",
+            "name": "Georgia"
+      },
+      {
+            "money": "XCD",
+            "flag": "gd",
+            "name": "Grenada"
+      },
+      {
+            "money": "GBP",
+            "flag": "gb",
+            "name": "United Kingdom"
+      },
+      {
+            "money": "XAF",
+            "flag": "ga",
+            "name": "Gabon"
+      },
+      {
+            "money": "USD",
+            "flag": "sv",
+            "name": "El Salvador"
+      },
+      {
+            "money": "GNF",
+            "flag": "gn",
+            "name": "Guinea"
+      },
+      {
+            "money": "GMD",
+            "flag": "gm",
+            "name": "Gambia"
+      },
+      {
+            "money": "DKK",
+            "flag": "gl",
+            "name": "Greenland"
+      },
+      {
+            "money": "GIP",
+            "flag": "gi",
+            "name": "Gibraltar"
+      },
+      {
+            "money": "GHS",
+            "flag": "gh",
+            "name": "Ghana"
+      },
+      {
+            "money": "OMR",
+            "flag": "om",
+            "name": "Oman"
+      },
+      {
+            "money": "TND",
+            "flag": "tn",
+            "name": "Tunisia"
+      },
+      {
+            "money": "JOD",
+            "flag": "jo",
+            "name": "Jordan"
+      },
+      {
+            "money": "HRK",
+            "flag": "hr",
+            "name": "Croatia"
+      },
+      {
+            "money": "HTG",
+            "flag": "ht",
+            "name": "Haiti"
+      },
+      {
+            "money": "HUF",
+            "flag": "hu",
+            "name": "Hungary"
+      },
+      {
+            "money": "HKD",
+            "flag": "hk",
+            "name": "Hong Kong"
+      },
+      {
+            "money": "HNL",
+            "flag": "hn",
+            "name": "Honduras"
+      },
+      {
+            "money": "AUD",
+            "flag": "hm",
+            "name": "Heard Island and McDonald Islands"
+      },
+      {
+            "money": "VEF",
+            "flag": "ve",
+            "name": "Venezuela"
+      },
+      {
+            "money": "USD",
+            "flag": "pr",
+            "name": "Puerto Rico"
+      },
+      {
+            "money": "ILS",
+            "flag": "ps",
+            "name": "Palestinian Territory"
+      },
+      {
+            "money": "USD",
+            "flag": "pw",
+            "name": "Palau"
+      },
+      {
+            "money": "EUR",
+            "flag": "pt",
+            "name": "Portugal"
+      },
+      {
+            "money": "NOK",
+            "flag": "sj",
+            "name": "Svalbard and Jan Mayen"
+      },
+      {
+            "money": "PYG",
+            "flag": "py",
+            "name": "Paraguay"
+      },
+      {
+            "money": "IQD",
+            "flag": "iq",
+            "name": "Iraq"
+      },
+      {
+            "money": "PAB",
+            "flag": "pa",
+            "name": "Panama"
+      },
+      {
+            "money": "XPF",
+            "flag": "pf",
+            "name": "French Polynesia"
+      },
+      {
+            "money": "PGK",
+            "flag": "pg",
+            "name": "Papua New Guinea"
+      },
+      {
+            "money": "PEN",
+            "flag": "pe",
+            "name": "Peru"
+      },
+      {
+            "money": "PKR",
+            "flag": "pk",
+            "name": "Pakistan"
+      },
+      {
+            "money": "PHP",
+            "flag": "ph",
+            "name": "Philippines"
+      },
+      {
+            "money": "NZD",
+            "flag": "pn",
+            "name": "Pitcairn"
+      },
+      {
+            "money": "PLN",
+            "flag": "pl",
+            "name": "Poland"
+      },
+      {
+            "money": "EUR",
+            "flag": "pm",
+            "name": "Saint Pierre and Miquelon"
+      },
+      {
+            "money": "ZMK",
+            "flag": "zm",
+            "name": "Zambia"
+      },
+      {
+            "money": "MAD",
+            "flag": "eh",
+            "name": "Western Sahara"
+      },
+      {
+            "money": "EUR",
+            "flag": "ee",
+            "name": "Estonia"
+      },
+      {
+            "money": "EGP",
+            "flag": "eg",
+            "name": "Egypt"
+      },
+      {
+            "money": "ZAR",
+            "flag": "za",
+            "name": "South Africa"
+      },
+      {
+            "money": "USD",
+            "flag": "ec",
+            "name": "Ecuador"
+      },
+      {
+            "money": "EUR",
+            "flag": "it",
+            "name": "Italy"
+      },
+      {
+            "money": "VND",
+            "flag": "vn",
+            "name": "Vietnam"
+      },
+      {
+            "money": "SBD",
+            "flag": "sb",
+            "name": "Solomon Islands"
+      },
+      {
+            "money": "ETB",
+            "flag": "et",
+            "name": "Ethiopia"
+      },
+      {
+            "money": "SOS",
+            "flag": "so",
+            "name": "Somalia"
+      },
+      {
+            "money": "ZWL",
+            "flag": "zw",
+            "name": "Zimbabwe"
+      },
+      {
+            "money": "SAR",
+            "flag": "sa",
+            "name": "Saudi Arabia"
+      },
+      {
+            "money": "EUR",
+            "flag": "es",
+            "name": "Spain"
+      },
+      {
+            "money": "ERN",
+            "flag": "er",
+            "name": "Eritrea"
+      },
+      {
+            "money": "EUR",
+            "flag": "me",
+            "name": "Montenegro"
+      },
+      {
+            "money": "MDL",
+            "flag": "md",
+            "name": "Moldova"
+      },
+      {
+            "money": "MGA",
+            "flag": "mg",
+            "name": "Madagascar"
+      },
+      {
+            "money": "EUR",
+            "flag": "mf",
+            "name": "Saint Martin"
+      },
+      {
+            "money": "MAD",
+            "flag": "ma",
+            "name": "Morocco"
+      },
+      {
+            "money": "EUR",
+            "flag": "mc",
+            "name": "Monaco"
+      },
+      {
+            "money": "UZS",
+            "flag": "uz",
+            "name": "Uzbekistan"
+      },
+      {
+            "money": "MMK",
+            "flag": "mm",
+            "name": "Myanmar"
+      },
+      {
+            "money": "XOF",
+            "flag": "ml",
+            "name": "Mali"
+      },
+      {
+            "money": "MOP",
+            "flag": "mo",
+            "name": "Macao"
+      },
+      {
+            "money": "MNT",
+            "flag": "mn",
+            "name": "Mongolia"
+      },
+      {
+            "money": "USD",
+            "flag": "mh",
+            "name": "Marshall Islands"
+      },
+      {
+            "money": "MKD",
+            "flag": "mk",
+            "name": "Macedonia"
+      },
+      {
+            "money": "MUR",
+            "flag": "mu",
+            "name": "Mauritius"
+      },
+      {
+            "money": "EUR",
+            "flag": "mt",
+            "name": "Malta"
+      },
+      {
+            "money": "MWK",
+            "flag": "mw",
+            "name": "Malawi"
+      },
+      {
+            "money": "MVR",
+            "flag": "mv",
+            "name": "Maldives"
+      },
+      {
+            "money": "EUR",
+            "flag": "mq",
+            "name": "Martinique"
+      },
+      {
+            "money": "USD",
+            "flag": "mp",
+            "name": "Northern Mariana Islands"
+      },
+      {
+            "money": "XCD",
+            "flag": "ms",
+            "name": "Montserrat"
+      },
+      {
+            "money": "MRO",
+            "flag": "mr",
+            "name": "Mauritania"
+      },
+      {
+            "money": "GBP",
+            "flag": "im",
+            "name": "Isle of Man"
+      },
+      {
+            "money": "UGX",
+            "flag": "ug",
+            "name": "Uganda"
+      },
+      {
+            "money": "TZS",
+            "flag": "tz",
+            "name": "Tanzania"
+      },
+      {
+            "money": "MYR",
+            "flag": "my",
+            "name": "Malaysia"
+      },
+      {
+            "money": "MXN",
+            "flag": "mx",
+            "name": "Mexico"
+      },
+      {
+            "money": "ILS",
+            "flag": "il",
+            "name": "Israel"
+      },
+      {
+            "money": "EUR",
+            "flag": "fr",
+            "name": "France"
+      },
+      {
+            "money": "USD",
+            "flag": "io",
+            "name": "British Indian Ocean Territory"
+      },
+      {
+            "money": "SHP",
+            "flag": "sh",
+            "name": "Saint Helena"
+      },
+      {
+            "money": "EUR",
+            "flag": "fi",
+            "name": "Finland"
+      },
+      {
+            "money": "FJD",
+            "flag": "fj",
+            "name": "Fiji"
+      },
+      {
+            "money": "FKP",
+            "flag": "fk",
+            "name": "Falkland Islands"
+      },
+      {
+            "money": "USD",
+            "flag": "fm",
+            "name": "Micronesia"
+      },
+      {
+            "money": "DKK",
+            "flag": "fo",
+            "name": "Faroe Islands"
+      },
+      {
+            "money": "NIO",
+            "flag": "ni",
+            "name": "Nicaragua"
+      },
+      {
+            "money": "EUR",
+            "flag": "nl",
+            "name": "Netherlands"
+      },
+      {
+            "money": "NOK",
+            "flag": "no",
+            "name": "Norway"
+      },
+      {
+            "money": "NAD",
+            "flag": "na",
+            "name": "Namibia"
+      },
+      {
+            "money": "VUV",
+            "flag": "vu",
+            "name": "Vanuatu"
+      },
+      {
+            "money": "XPF",
+            "flag": "nc",
+            "name": "New Caledonia"
+      },
+      {
+            "money": "XOF",
+            "flag": "ne",
+            "name": "Niger"
+      },
+      {
+            "money": "AUD",
+            "flag": "nf",
+            "name": "Norfolk Island"
+      },
+      {
+            "money": "NGN",
+            "flag": "ng",
+            "name": "Nigeria"
+      },
+      {
+            "money": "NZD",
+            "flag": "nz",
+            "name": "New Zealand"
+      },
+      {
+            "money": "NPR",
+            "flag": "np",
+            "name": "Nepal"
+      },
+      {
+            "money": "AUD",
+            "flag": "nr",
+            "name": "Nauru"
+      },
+      {
+            "money": "NZD",
+            "flag": "nu",
+            "name": "Niue"
+      },
+      {
+            "money": "NZD",
+            "flag": "ck",
+            "name": "Cook Islands"
+      },
+      {
+            "money": "EUR",
+            "flag": "xk",
+            "name": "Kosovo"
+      },
+      {
+            "money": "XOF",
+            "flag": "ci",
+            "name": "Ivory Coast"
+      },
+      {
+            "money": "CHF",
+            "flag": "ch",
+            "name": "Switzerland"
+      },
+      {
+            "money": "COP",
+            "flag": "co",
+            "name": "Colombia"
+      },
+      {
+            "money": "CNY",
+            "flag": "cn",
+            "name": "China"
+      },
+      {
+            "money": "XAF",
+            "flag": "cm",
+            "name": "Cameroon"
+      },
+      {
+            "money": "CLP",
+            "flag": "cl",
+            "name": "Chile"
+      },
+      {
+            "money": "AUD",
+            "flag": "cc",
+            "name": "Cocos Islands"
+      },
+      {
+            "money": "CAD",
+            "flag": "ca",
+            "name": "Canada"
+      },
+      {
+            "money": "XAF",
+            "flag": "cg",
+            "name": "Republic of the Congo"
+      },
+      {
+            "money": "XAF",
+            "flag": "cf",
+            "name": "Central African Republic"
+      },
+      {
+            "money": "CDF",
+            "flag": "cd",
+            "name": "Democratic Republic of the Congo"
+      },
+      {
+            "money": "CZK",
+            "flag": "cz",
+            "name": "Czech Republic"
+      },
+      {
+            "money": "EUR",
+            "flag": "cy",
+            "name": "Cyprus"
+      },
+      {
+            "money": "AUD",
+            "flag": "cx",
+            "name": "Christmas Island"
+      },
+      {
+            "money": "CRC",
+            "flag": "cr",
+            "name": "Costa Rica"
+      },
+      {
+            "money": "ANG",
+            "flag": "cw",
+            "name": "Curacao"
+      },
+      {
+            "money": "CVE",
+            "flag": "cv",
+            "name": "Cape Verde"
+      },
+      {
+            "money": "CUP",
+            "flag": "cu",
+            "name": "Cuba"
+      },
+      {
+            "money": "SZL",
+            "flag": "sz",
+            "name": "Swaziland"
+      },
+      {
+            "money": "SYP",
+            "flag": "sy",
+            "name": "Syria"
+      },
+      {
+            "money": "ANG",
+            "flag": "sx",
+            "name": "Sint Maarten"
+      },
+      {
+            "money": "KGS",
+            "flag": "kg",
+            "name": "Kyrgyzstan"
+      },
+      {
+            "money": "KES",
+            "flag": "ke",
+            "name": "Kenya"
+      },
+      {
+            "money": "SSP",
+            "flag": "ss",
+            "name": "South Sudan"
+      },
+      {
+            "money": "SRD",
+            "flag": "sr",
+            "name": "Suriname"
+      },
+      {
+            "money": "AUD",
+            "flag": "ki",
+            "name": "Kiribati"
+      },
+      {
+            "money": "KHR",
+            "flag": "kh",
+            "name": "Cambodia"
+      },
+      {
+            "money": "XCD",
+            "flag": "kn",
+            "name": "Saint Kitts and Nevis"
+      },
+      {
+            "money": "KMF",
+            "flag": "km",
+            "name": "Comoros"
+      },
+      {
+            "money": "STD",
+            "flag": "st",
+            "name": "Sao Tome and Principe"
+      },
+      {
+            "money": "EUR",
+            "flag": "sk",
+            "name": "Slovakia"
+      },
+      {
+            "money": "KRW",
+            "flag": "kr",
+            "name": "South Korea"
+      },
+      {
+            "money": "EUR",
+            "flag": "si",
+            "name": "Slovenia"
+      },
+      {
+            "money": "KPW",
+            "flag": "kp",
+            "name": "North Korea"
+      },
+      {
+            "money": "KWD",
+            "flag": "kw",
+            "name": "Kuwait"
+      },
+      {
+            "money": "XOF",
+            "flag": "sn",
+            "name": "Senegal"
+      },
+      {
+            "money": "EUR",
+            "flag": "sm",
+            "name": "San Marino"
+      },
+      {
+            "money": "SLL",
+            "flag": "sl",
+            "name": "Sierra Leone"
+      },
+      {
+            "money": "SCR",
+            "flag": "sc",
+            "name": "Seychelles"
+      },
+      {
+            "money": "KZT",
+            "flag": "kz",
+            "name": "Kazakhstan"
+      },
+      {
+            "money": "KYD",
+            "flag": "ky",
+            "name": "Cayman Islands"
+      },
+      {
+            "money": "SGD",
+            "flag": "sg",
+            "name": "Singapore"
+      },
+      {
+            "money": "SEK",
+            "flag": "se",
+            "name": "Sweden"
+      },
+      {
+            "money": "SDG",
+            "flag": "sd",
+            "name": "Sudan"
+      },
+      {
+            "money": "DOP",
+            "flag": "do",
+            "name": "Dominican Republic"
+      },
+      {
+            "money": "XCD",
+            "flag": "dm",
+            "name": "Dominica"
+      },
+      {
+            "money": "DJF",
+            "flag": "dj",
+            "name": "Djibouti"
+      },
+      {
+            "money": "DKK",
+            "flag": "dk",
+            "name": "Denmark"
+      },
+      {
+            "money": "USD",
+            "flag": "vg",
+            "name": "British Virgin Islands"
+      },
+      {
+            "money": "EUR",
+            "flag": "de",
+            "name": "Germany"
+      },
+      {
+            "money": "YER",
+            "flag": "ye",
+            "name": "Yemen"
+      },
+      {
+            "money": "DZD",
+            "flag": "dz",
+            "name": "Algeria"
+      },
+      {
+            "money": "USD",
+            "flag": "us",
+            "name": "United States"
+      },
+      {
+            "money": "UYU",
+            "flag": "uy",
+            "name": "Uruguay"
+      },
+      {
+            "money": "EUR",
+            "flag": "yt",
+            "name": "Mayotte"
+      },
+      {
+            "money": "USD",
+            "flag": "um",
+            "name": "United States Minor Outlying Islands"
+      },
+      {
+            "money": "LBP",
+            "flag": "lb",
+            "name": "Lebanon"
+      },
+      {
+            "money": "XCD",
+            "flag": "lc",
+            "name": "Saint Lucia"
+      },
+      {
+            "money": "LAK",
+            "flag": "la",
+            "name": "Laos"
+      },
+      {
+            "money": "AUD",
+            "flag": "tv",
+            "name": "Tuvalu"
+      },
+      {
+            "money": "TWD",
+            "flag": "tw",
+            "name": "Taiwan"
+      },
+      {
+            "money": "TTD",
+            "flag": "tt",
+            "name": "Trinidad and Tobago"
+      },
+      {
+            "money": "TRY",
+            "flag": "tr",
+            "name": "Turkey"
+      },
+      {
+            "money": "LKR",
+            "flag": "lk",
+            "name": "Sri Lanka"
+      },
+      {
+            "money": "CHF",
+            "flag": "li",
+            "name": "Liechtenstein"
+      },
+      {
+            "money": "EUR",
+            "flag": "lv",
+            "name": "Latvia"
+      },
+      {
+            "money": "TOP",
+            "flag": "to",
+            "name": "Tonga"
+      },
+      {
+            "money": "LTL",
+            "flag": "lt",
+            "name": "Lithuania"
+      },
+      {
+            "money": "EUR",
+            "flag": "lu",
+            "name": "Luxembourg"
+      },
+      {
+            "money": "LRD",
+            "flag": "lr",
+            "name": "Liberia"
+      },
+      {
+            "money": "LSL",
+            "flag": "ls",
+            "name": "Lesotho"
+      },
+      {
+            "money": "THB",
+            "flag": "th",
+            "name": "Thailand"
+      },
+      {
+            "money": "EUR",
+            "flag": "tf",
+            "name": "French Southern Territories"
+      },
+      {
+            "money": "XOF",
+            "flag": "tg",
+            "name": "Togo"
+      },
+      {
+            "money": "XAF",
+            "flag": "td",
+            "name": "Chad"
+      },
+      {
+            "money": "USD",
+            "flag": "tc",
+            "name": "Turks and Caicos Islands"
+      },
+      {
+            "money": "LYD",
+            "flag": "ly",
+            "name": "Libya"
+      },
+      {
+            "money": "EUR",
+            "flag": "va",
+            "name": "Vatican"
+      },
+      {
+            "money": "XCD",
+            "flag": "vc",
+            "name": "Saint Vincent and the Grenadines"
+      },
+      {
+            "money": "AED",
+            "flag": "ae",
+            "name": "United Arab Emirates"
+      },
+      {
+            "money": "EUR",
+            "flag": "ad",
+            "name": "Andorra"
+      },
+      {
+            "money": "XCD",
+            "flag": "ag",
+            "name": "Antigua and Barbuda"
+      },
+      {
+            "money": "AFN",
+            "flag": "af",
+            "name": "Afghanistan"
+      },
+      {
+            "money": "XCD",
+            "flag": "ai",
+            "name": "Anguilla"
+      },
+      {
+            "money": "USD",
+            "flag": "vi",
+            "name": "U.S. Virgin Islands"
+      },
+      {
+            "money": "ISK",
+            "flag": "is",
+            "name": "Iceland"
+      },
+      {
+            "money": "IRR",
+            "flag": "ir",
+            "name": "Iran"
+      },
+      {
+            "money": "AMD",
+            "flag": "am",
+            "name": "Armenia"
+      },
+      {
+            "money": "ALL",
+            "flag": "al",
+            "name": "Albania"
+      },
+      {
+            "money": "AOA",
+            "flag": "ao",
+            "name": "Angola"
+      },
+
+      {
+            "money": "USD",
+            "flag": "aq",
+            "name": "Antarctica"
+      },
+      {
+            "money": "USD",
+            "flag": "as",
+            "name": "American Samoa"
+      },
+      {
+            "money": "ARS",
+            "flag": "ar",
+            "name": "Argentina"
+      },
+      {
+            "money": "AUD",
+            "flag": "au",
+            "name": "Australia"
+      },
+      {
+            "money": "EUR",
+            "flag": "at",
+            "name": "Austria"
+      },
+      {
+            "money": "AWG",
+            "flag": "aw",
+            "name": "Aruba"
+      },
+      {
+            "money": "INR",
+            "flag": "in",
+            "name": "India"
+      },
+      {
+            "money": "EUR",
+            "flag": "ax",
+            "name": "Aland Islands"
+      },
+      {
+            "money": "AZN",
+            "flag": "az",
+            "name": "Azerbaijan"
+      },
+      {
+            "money": "EUR",
+            "flag": "ie",
+            "name": "Ireland"
+      },
+      {
+            "money": "IDR",
+            "flag": "id",
+            "name": "Indonesia"
+      },
+      {
+            "money": "UAH",
+            "flag": "ua",
+            "name": "Ukraine"
+      },
+      {
+            "money": "QAR",
+            "flag": "qa",
+            "name": "Qatar"
+      }
+      ]

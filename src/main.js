@@ -3,7 +3,7 @@ import Vue from 'nativescript-vue';
 import router from './router';
 
 import store from './store';
-
+// import "./async-await";
 // import './styles.scss';
  import './app.css';
 
