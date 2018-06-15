@@ -445,19 +445,19 @@ const connectionType = Connectivity.getConnectionType();
       convertCurrency() {
 
 
-        // axios.get('http://data.fixer.io/api/latest?access_key=b0f3463a9a62817a699073c4c5c99de2&symbols=' + this.country1 +
-        //   ',' + this.country2).then(response => {
-        //   //  vm.items2 = response.data
-        //   this.oneunit = (response.data.rates[this.country2] / response.data.rates[this.country1]) * this.inputvalue
-        //   console.log("convertCurrency called")
-        //   console.log(this.country2)
-        //   console.log(this.country1)
-        //   console.log(this.inputvalue)
-        //   return this.oneunit
-        // }, function (e) {
-        //   console.log('Error is here\n\n\n\n\n\n\n\n\n')
-        //   console.log(e);
-        // });
+        axios.get('http://data.fixer.io/api/latest?access_key=SET_YOUR_Fixer.Io_ACCESS_Code&symbols=' + this.country1 +
+          ',' + this.country2).then(response => {
+          //  vm.items2 = response.data
+          this.oneunit = (response.data.rates[this.country2] / response.data.rates[this.country1]) * this.inputvalue
+          console.log("convertCurrency called")
+          console.log(this.country2)
+          console.log(this.country1)
+          console.log(this.inputvalue)
+          return this.oneunit
+        }, function (e) {
+          console.log('Error is here\n\n\n\n\n\n\n\n\n')
+          console.log(e);
+        });
       },
       date(){
       this.today = new Date();
