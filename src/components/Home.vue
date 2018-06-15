@@ -2,7 +2,6 @@
   <Page class="page" background="white">
     <ActionBar class="action-bar" title="Currency Converter" >
       <label text="Convert Currency" class="fontawesomeTitle" horizontalAlignment="center" />
-      
     </ActionBar>
     <StackLayout>
       <StackLayout backgroundColor="#4c4cff" >
@@ -12,12 +11,12 @@
       <stackLayout v-if="surprise1 && surprise2" @tap="selectCountry1();convertCurrency();">
         <CardView  class="cardStyle" margin="10" radius="10" backgroundColor="#d3d3d3">
           <GridLayout  columns="80,auto,auto,auto," rows="auto,auto, auto">
-            <Image row="1" width="150" @tap="convertCurrency()" col="0" :src="'http://flags.fmcdn.net/data/flags/w580/' +flag1+ '.png'"
+            <Image row="1" width="150"  col="0" :src="'http://flags.fmcdn.net/data/flags/w580/' +flag1+ '.png'"
               class="p-5 m-5 img " />
-              <label :text="country1" @tap="selectCountry1();convertCurrency(); " row="1" class="fontawesomeTitle m-l-24 m-t-24" col="2"></label>
-              <label  :text="countryname1"  textWrap="true" row="1" col="1" class="fontawesome m-l-24 m-t-24"/>
+              <label :text="country1" @tap="selectCountry1();convertCurrency(); " row="1" class="fontawesomeTitle m-l-24 m-r-12 m-t-24" col="2"></label>
+              <label  :text="countryname1"  textWrap="true" row="1" col="1" class="fontawesome m-l-24 m-r-12 m-t-24"/>
  
-          <label :text="'\uf063'"   row="1" col="3" class="fontawesome m-l-24 m-t-24"/>
+          <label :text="'\uf063'" row="1" col="3" class="fontawesome m-l-24 m-t-24"/>
           </GridLayout>
         </CardView>
       </stackLayout>
@@ -31,11 +30,11 @@
       <stackLayout v-if="surprise1 && surprise2" @tap="selectCountry2();convertCurrency();">
         <CardView class="cardStyle" margin="10" radius="10"  backgroundColor="#d3d3d3">
           <GridLayout  columns="80,auto,auto,auto" rows="auto,auto, auto">
-            <Image col="0" width="150" row="1" @tap="convertCurrency()" class="p-5 m-5 img " :src="'http://flags.fmcdn.net/data/flags/w580/' +flag2+ '.png'"
+            <Image col="0" width="150" row="1"   class="p-5 m-5 img " :src="'http://flags.fmcdn.net/data/flags/w580/' +flag2+ '.png'"
             />
-            <label :text="country2" @tap="selectCountry2();convertCurrency();" row="1" class="fontawesomeTitle m-l-24 m-t-24" col="2"></label>
+            <label :text="country2" @tap="selectCountry2();convertCurrency();" row="1" class="fontawesomeTitle m-l-24  m-r-12 m-t-24" col="2"></label>
             <label  :text="countryname2"   row="1" col="1" class="fontawesome m-l-24 m-t-24"/>
-            <label :text="'\uf063'"  horizontalAlignment="right"  row="1" col="3" class="fontawesome m-l-24 m-t-24"/>
+            <label :text="'\uf063'"  horizontalAlignment="right"  row="1" col="3" class="fontawesome m-l-24  m-r-12 m-t-24"/>
           </GridLayout>
         </CardView>
       </stackLayout>
@@ -373,10 +372,12 @@ const connectionType = Connectivity.getConnectionType();
     // result argument is boolean
     console.log("Dialog result: " + result);
 });
+
     }
     else{
         this.surprise1 = false
         this.surprise2 = true
+        this.convertCurrency()
     }
       },
       selectCountry2() {
@@ -393,6 +394,7 @@ const connectionType = Connectivity.getConnectionType();
     else{
         this.surprise2 = false
         this.surprise1 = true
+        this.convertCurrency()
         // console.log(this.surprise2)
       }},
       selectedCountry1() {
@@ -406,9 +408,8 @@ const connectionType = Connectivity.getConnectionType();
           console.log(this.flag1)
           if(this.flag1===''){
             confirm()
+            this.convertCurrency()
           }
-          this.convertCurrency()
-          
           return this.country1;
           this.flag1
         }, function (e) {
@@ -426,11 +427,12 @@ const connectionType = Connectivity.getConnectionType();
             this.countryname2=response.data[this.selectedListPickerIndex].name
             this.onBusyChanged()
             console.log(this.country2)
-            if(this.flag2===''){
-          console.log("\n\n\n\n\n\n\n\n\n\n\n\n");
-          console.log("Network error");
-            }
+             if(this.flag1===''){
+            confirm()
             this.convertCurrency()
+          }
+
+            
             return this.country2;
             this.flag2
           },
@@ -445,7 +447,7 @@ const connectionType = Connectivity.getConnectionType();
       convertCurrency() {
 
 
-        axios.get('http://data.fixer.io/api/latest?access_key=SET_YOUR_Fixer.Io_ACCESS_Code&symbols=' + this.country1 +
+        axios.get('http://data.fixer.io/api/latest?access_key=b0f3463a9a62817a699073c4c5c99de2&symbols=' + this.country1 +
           ',' + this.country2).then(response => {
           //  vm.items2 = response.data
           this.oneunit = (response.data.rates[this.country2] / response.data.rates[this.country1]) * this.inputvalue
