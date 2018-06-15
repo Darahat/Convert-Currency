@@ -1,9 +1,9 @@
 <template>
   <Page class="page" background="white">
-    <ActionBar class="action-bar" title="Currency Converter">
+    <ActionBar class="action-bar" title="Currency Converter" >
       <label text="Convert Currency" class="fontawesomeTitle" horizontalAlignment="center" />
+      
     </ActionBar>
-
     <StackLayout>
       <StackLayout backgroundColor="#4c4cff" >
         <label :text="date()" horizontalAlignment="center" color="white" class="m-12"></label>
@@ -17,7 +17,7 @@
               <label :text="country1" @tap="selectCountry1();convertCurrency(); " row="1" class="fontawesomeTitle m-l-24 m-t-24" col="2"></label>
               <label  :text="countryname1"  textWrap="true" row="1" col="1" class="fontawesome m-l-24 m-t-24"/>
  
-           <label :text="'\uf063'"   row="1" col="3" class="fontawesome m-l-24 m-t-24"/>
+          <label :text="'\uf063'"   row="1" col="3" class="fontawesome m-l-24 m-t-24"/>
           </GridLayout>
         </CardView>
       </stackLayout>
@@ -28,16 +28,13 @@
         </CardView>
       </stackLayout>
 
-
-
       <stackLayout v-if="surprise1 && surprise2" @tap="selectCountry2();convertCurrency();">
         <CardView class="cardStyle" margin="10" radius="10"  backgroundColor="#d3d3d3">
           <GridLayout  columns="80,auto,auto,auto" rows="auto,auto, auto">
             <Image col="0" width="150" row="1" @tap="convertCurrency()" class="p-5 m-5 img " :src="'http://flags.fmcdn.net/data/flags/w580/' +flag2+ '.png'"
             />
             <label :text="country2" @tap="selectCountry2();convertCurrency();" row="1" class="fontawesomeTitle m-l-24 m-t-24" col="2"></label>
-             <label  :text="countryname2"   row="1" col="1" class="fontawesome m-l-24 m-t-24"/>
- 
+            <label  :text="countryname2"   row="1" col="1" class="fontawesome m-l-24 m-t-24"/>
             <label :text="'\uf063'"  horizontalAlignment="right"  row="1" col="3" class="fontawesome m-l-24 m-t-24"/>
           </GridLayout>
         </CardView>
@@ -51,9 +48,9 @@
 
       <GridLayout>
         <label v-if="!surprise1 && !surprise2" text="Select A Country"></label>
-        <ListPicker row="2" class="fontawesomeTitle" v-show="!surprise1 && surprise2" :items="country" @tap="selectedCountry1() " v-model="selectedListPickerIndex"
+        <ListPicker row="2" class="fontawesomelist" v-show="!surprise1 && surprise2" :items="country" @tap="selectedCountry1() " v-model="selectedListPickerIndex"
         />
-        <ListPicker row="2" class="fontawesomeTitle" v-show="!surprise2 && surprise1" :items="country" @tap="selectedCountry2();" v-model="selectedListPickerIndex"
+        <ListPicker row="2" class="fontawesomelist" v-show="!surprise2 && surprise1" :items="country" @tap="selectedCountry2();" v-model="selectedListPickerIndex"
         />
       </GridLayout>
     </StackLayout>
@@ -63,13 +60,17 @@
 <script>
   import axios from 'axios'
   import http from 'http'
-
+import * as Connectivity from "tns-core-modules/connectivity";
   import data from '../assets/data/data.json'
+
+  import * as dialogs from "ui/dialogs";
+
   export default {
     data() {
       return {
         surprise1: true,
         inputvalue: 0,
+        busy:true,
         country: [
           "Bangladesh",
           "Belgium",
@@ -346,34 +347,73 @@
         return this.convertCurrency()
       },
       },
-    // mounted(){
-    //   this.convertCurrency()
-    // },
     methods: {
+      check(){
+const connectionType = Connectivity.getConnectionType();
+    if(connectionType===Connectivity.connectionType.none){
+   dialogs.confirm({
+    title: "Your title",
+    message: "Your message",
+    okButtonText: "Your button text",
+    cancelButtonText: "Cancel text",
+    neutralButtonText: "Neutral text"
+}).then(result => {
+    // result argument is boolean
+    console.log("Dialog result: " + result);
+});
+    }
+      },
       selectCountry1() {
+          const connectionType = Connectivity.getConnectionType();
+    if(connectionType===Connectivity.connectionType.none){
+   dialogs.confirm({
+    title: "Attention!",
+    message: "Please check your internet connection",
+}).then(result => {
+    // result argument is boolean
+    console.log("Dialog result: " + result);
+});
+    }
+    else{
         this.surprise1 = false
         this.surprise2 = true
+    }
       },
       selectCountry2() {
+        const connectionType = Connectivity.getConnectionType();
+    if(connectionType===Connectivity.connectionType.none){
+   dialogs.confirm({
+    title: "Attention!",
+    message: "Please check your internet connection",
+}).then(result => {
+    // result argument is boolean
+    console.log("Dialog result: " + result);
+});
+    }
+    else{
         this.surprise2 = false
         this.surprise1 = true
         // console.log(this.surprise2)
-      },
+      }},
       selectedCountry1() {
+      
         this.surprise1 = true
-        // console.log(this.surprise1)
-        // console.log(this.country[this.selectedListPickerIndex][1])
         axios.get('https://api.myjson.com/bins/14vppq').then(response => {
           console.log('response is here\n\n\n\n\n\n\n\n\n')
           this.country1 = response.data[this.selectedListPickerIndex].money
           this.flag1 = response.data[this.selectedListPickerIndex].flag
           this.countryname1=response.data[this.selectedListPickerIndex].name
-          console.log(this.country1)
+          console.log(this.flag1)
+          if(this.flag1===''){
+            confirm()
+          }
           this.convertCurrency()
+          
           return this.country1;
           this.flag1
         }, function (e) {
-          console.log(e);
+          console.log("\n\n\n\n\n\n\n\n\n\n\n\n");
+          console.log("Network error");
         });
       },
       selectedCountry2() {
@@ -384,36 +424,44 @@
             this.country2 = response.data[this.selectedListPickerIndex].money
             this.flag2 = response.data[this.selectedListPickerIndex].flag
             this.countryname2=response.data[this.selectedListPickerIndex].name
+            this.onBusyChanged()
             console.log(this.country2)
+            if(this.flag2===''){
+          console.log("\n\n\n\n\n\n\n\n\n\n\n\n");
+          console.log("Network error");
+            }
             this.convertCurrency()
             return this.country2;
             this.flag2
           },
           function (e) {
             console.log(e);
+
+          console.log("\n\n\n\n\n\n\n\n\n\n\n\n");
+          console.log("Network error");
           });
       },
 
       convertCurrency() {
-        const vm = this
 
-        axios.get('http://data.fixer.io/api/latest?access_key=b0f3463a9a62817a699073c4c5c99de2&symbols=' + this.country1 +
-          ',' + this.country2).then(response => {
-          //  vm.items2 = response.data
-          this.oneunit = (response.data.rates[this.country2] / response.data.rates[this.country1]) * this.inputvalue
-          console.log("convertCurrency called")
-          console.log(this.country2)
-          console.log(this.country1)
-          console.log(this.inputvalue)
-          return this.oneunit
-        }, function (e) {
-          console.log('Error is here\n\n\n\n\n\n\n\n\n')
-          console.log(e);
-        });
+
+        // axios.get('http://data.fixer.io/api/latest?access_key=b0f3463a9a62817a699073c4c5c99de2&symbols=' + this.country1 +
+        //   ',' + this.country2).then(response => {
+        //   //  vm.items2 = response.data
+        //   this.oneunit = (response.data.rates[this.country2] / response.data.rates[this.country1]) * this.inputvalue
+        //   console.log("convertCurrency called")
+        //   console.log(this.country2)
+        //   console.log(this.country1)
+        //   console.log(this.inputvalue)
+        //   return this.oneunit
+        // }, function (e) {
+        //   console.log('Error is here\n\n\n\n\n\n\n\n\n')
+        //   console.log(e);
+        // });
       },
-       date(){
+      date(){
       this.today = new Date();
- this.dd = this.today.getDate();
+this.dd = this.today.getDate();
 this.mm = this.today.getMonth()+1; //January is 0!
 this.yyyy = this.today.getFullYear();
 
@@ -480,6 +528,10 @@ return this.today
   .fontawesomeTitle {
     font-family: 'fontawesome-webfont';
     font-size: 18;
+  }
+  .fontawesomelist {
+    font-family: 'fontawesome-webfont';
+    font-size: 28;
   }
 </style>
  
