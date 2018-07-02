@@ -51,7 +51,7 @@ npm run debug:android
 
 Build, watch for changes and run the application
 ```
-npm run watch:<platform>
+npm run watch:android
 ```
 
  Clean the NativeScript application instance (i.e. rm -rf dist)
