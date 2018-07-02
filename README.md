@@ -1,5 +1,6 @@
 # Convertert-Currency
 Convertert-Currency is a NativeScript-built Android app for convert currency between latest currency value of 250 Countries. 
+Download the APK : [Installable APK](https://github.com/Darahat/Convert-Currency/blob/master/Currency-Converter.apk)
 
 * [Branches](#branches)
 * [GIFs](#gifs)
